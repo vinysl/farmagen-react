@@ -7,11 +7,11 @@ function Navbar() {
         <>
             <div className='w-full bg-red-600 text-white flex justify-center py-4'>
                 <div className="container flex justify-between text-lg">
-                    <div className='text-2xl font-bold uppercase'>Drogaxil</div>
+                    <Link to="/home" className='text-2xl font-bold uppercase'>Drogaxil</Link>
 
                     <div className='flex gap-4'>
-                        <div className='hover:underline'>Categorias</div>
-                        <div className='hover:underline'>Cadastrar categoria</div>
+                        <Link to='/categorias' className='hover:underline'>Categorias</Link>
+                        <Link to='/cadastroCategoria' className='hover:underline'>Cadastrar categoria</Link>
 
                     </div>
                 </div>
